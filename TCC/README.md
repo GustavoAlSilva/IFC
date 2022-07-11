@@ -28,7 +28,7 @@ Araquari, maio, 2021
 
 #	Especificação de Requisitos
 
-### ⦁	Requisitos Funcionai:
+### ⦁	Requisitos Funcionais:
 
 RF001 - O sistema deve permitir que o usuário se cadastre no site.
 
