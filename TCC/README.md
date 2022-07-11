@@ -64,7 +64,7 @@ RNF005 - O sistema deve atender às leis, normas e padrões impostos.
 RNF006 - O sistema deve utilizar o Sistema de Gerenciamento de Banco de Dados Microsoft SQL Server.
 
 
-### ⦁	Regras de Negócio
+### ⦁	Regras de Negócio:
 
 RN001 - O apelido de usuário deve conter no máximo 15 caracteres.
 
