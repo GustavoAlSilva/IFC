@@ -1,0 +1,5 @@
+salario = float(input("Salário: "))
+porcentagem = float(input("Porcentagem do aumento: "))
+aumento_salarial = salario * (porcentagem / 100)
+print("Aumento: ", aumento_salarial)
+print("Novo salario: ", salario + aumento_salarial)
