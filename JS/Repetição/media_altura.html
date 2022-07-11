@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var media, altura, total=0, qtd=0;
+        for (var i=0; i<5; i++) {
+            altura = prompt("Digite a " + (i + 1) + "ª altura: ");
+            total += parseInt(altura);
+            qtd++;
+        }
+        media = total / qtd;
+        alert("Média das alturas: " + media);
+    </script>
+</body>
+</html>

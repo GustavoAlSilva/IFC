@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var n, qtd_positivo=0, total_positivo=0, media, n_negativos;
+        for (var i=0; i<20; i++) {
+            n = prompt("Digite o " + (i + 1) + "° valor: ");
+            if (n < 0) {
+                n_negativos += "\n" + n;
+            }
+            else {
+                qtd_positivo++;
+                total_positivo += parseInt(n);
+            }
+        } 
+        media = total_positivo / qtd_positivo;
+        alert("Média dos positivos: " + media + "\n\n" + "Números negativos: " + n_negativos);
+    </script>
+</body>
+</html>

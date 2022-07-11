@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var n, qtd=0;
+        for (var i=0; i<5; i++) {
+            n = prompt("Digite o " + (i + 1) + "° número: ");
+            if (n < 0) {
+            qtd++;
+            }
+        }
+        alert("Quantidade de números negativos: " + qtd);
+    </script>
+</body>
+</html>
